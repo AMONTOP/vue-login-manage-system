@@ -52,6 +52,19 @@
 
 ##创建数据库##
 
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(100) NOT NULL,
+  `account` varchar(100) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(200) NOT NULL,
+  `phone` varchar(100) NOT NULL,
+  `card` varchar(100) NOT NULL,
+  `birth` date NOT NULL,
+  `sex` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8
+
 ## 安装步骤 ##
 
 	https://github.com/sakila1012/vue-login-manage-system.git     // 把项目下载到本地
