@@ -65,6 +65,9 @@ CREATE TABLE `user` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8
 
+##查询优化数据库##
+http://xieyufei.com/2016/12/05/Nodejs-Query-Mysql.html
+
 ## 安装步骤 ##
 
 	https://github.com/sakila1012/vue-login-manage-system.git     // 把项目下载到本地
